@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "formularios-31324": {
+      "hosting": {
+        "Sistemas59": [
+          "formularios-31324"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "formularios-31324"
+  }
+}

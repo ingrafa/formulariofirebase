@@ -97,8 +97,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Sistemas59:build:production",
+            "firebaseProject": "formularios-31324",
+            "firebaseHostingSite": "formularios-31324"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "29b86f08-ad23-4123-9b33-512524cb211d"
   }
 }
